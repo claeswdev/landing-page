@@ -1,3 +1,26 @@
 html {
     font-family: Roboto, sans-serif;
 }
+
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero .text,
+.header li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
