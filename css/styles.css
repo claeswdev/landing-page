@@ -15,7 +15,7 @@ html {
 }
 
 .hero .text,
-.header li {
+.header a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -23,4 +23,59 @@ html {
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.hero {
+    padding: 0 112px 64px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.header ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.hero .container {
+   display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 32px;
+    height: 300px;
+}
+
+.hero .container .left {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   max-width: 50%;
+}
+
+.hero-image {
+    max-width: 50%;
+    height: auto;
+    object-fit: fill;
+}
+
+.hero .container button {
+    width: fit-content;
+    background-color: rgb(26, 114, 185);
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+
+.container .title,
+.container .text {
+    margin: 0;
 }
