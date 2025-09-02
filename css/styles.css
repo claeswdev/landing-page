@@ -182,3 +182,7 @@ section.call-to-action > div {
 .align-center {
     align-items: center;
 }
+
+.footer {
+    padding: 32px 0;
+}
