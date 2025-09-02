@@ -87,3 +87,10 @@ html {
     border: 3px solid blue;
     border-radius: 10px;
 }
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    padding: 64px 112px;
+    gap: 32px;
+}
