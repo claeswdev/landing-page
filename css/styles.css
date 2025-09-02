@@ -12,6 +12,11 @@ h6 {
     padding: 0;
 }
 
+.flex-container {
+    display: flex;
+
+}
+
 .hero,
 .footer {
     background-color: #1F2937;
@@ -40,14 +45,12 @@ h6 {
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 48px;
 }
 
 .header ul {
-    display: flex;
     gap: 24px;
     list-style-type: none;
 }
@@ -57,7 +60,6 @@ h6 {
 }
 
 .hero .container {
-   display: flex;
     justify-content: space-between;
     flex: 1;
     gap: 32px;
@@ -66,7 +68,6 @@ h6 {
 }
 
 .hero .container .left {
-   display: flex;
    flex-direction: column;
    justify-content: space-evenly;
    max-width: 50%;
@@ -103,7 +104,6 @@ h6 {
 }
 
 .card-container {
-    display: flex;
     flex-direction: row;
     gap: 32px;
     justify-content: center;
@@ -120,4 +120,32 @@ h6 {
     color: #1F2937;
     font-weight: 900;
     margin: 32px 0;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .flex-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0;
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex-end {
+    align-self: flex-end;
 }
