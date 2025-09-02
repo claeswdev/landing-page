@@ -1,20 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-family: Roboto, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-    padding: 0;
-}
-
 .flex-container {
     display: flex;
-
 }
 
 .hero,
@@ -30,7 +25,8 @@ h6 {
 }
 
 .hero .text,
-.header a {
+.header a,
+.call-to-action p {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -79,7 +75,8 @@ h6 {
     object-fit: cover;
 }
 
-.hero .container button {
+.sign-up {
+    height: fit-content;
     width: fit-content;
     background-color: #3882f6;
     color: white;
@@ -148,4 +145,40 @@ h6 {
 
 .flex-end {
     align-self: flex-end;
+}
+
+.call-to-action {
+    color: white;
+}
+
+section.call-to-action > div {
+    padding: 32px 64px;
+    margin: 64px 128px;
+    border-radius: 8px;
+}
+
+.call-to-action button {
+    color: inherit;
+    border-color: inherit;
+
+}
+
+.column {
+    flex-direction: column;
+}
+
+.bg-blue {
+    background-color: #3882f6;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-64 {
+    gap: 64px;
+}
+
+.align-center {
+    align-items: center;
 }
